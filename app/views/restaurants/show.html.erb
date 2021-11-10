@@ -1,0 +1,13 @@
+<h2>Details to <%= @restaurant.name %></h2>
+<p>
+  <strong>Name:</strong>
+  <%= @restaurant.category %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @restaurant.address %>
+</p>
+
+<%= link_to "Back", restaurants_path, class: "btn btn-primary" %>
+<%= link_to "Write a review", restaurants_path, class: "btn btn-primary" %>
